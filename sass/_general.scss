@@ -1,16 +1,25 @@
 body {
-	padding-top:50px;
+
 	
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	p {
 		font-size:16px;
 	}
 }
 h1, h2, h3, h4 {
-	font-weight:100;
+	font-weight:600;
 	color:$primary;
+	TEXT-TRANSFORM:uppercase;
+	
+}
+h1{
 
-	font-family: 'Ubuntu', sans-serif;
+}
+h2{
+	font-size:26px;
+}
+h3 {
+	font-size:22px;
 }
 section  {
 	border-bottom:1px solid #f4821f;
@@ -49,7 +58,7 @@ background: #F9FBFA; /* Old browsers */
 	margin-right:auto;
 }
 .help-block {
-	color:#ccc;
+	color:#eeeeee;
 	
 }
 .jumbotron {

@@ -1,13 +1,18 @@
 body {
-  padding-top: 50px;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Titillium Web', sans-serif; }
   body p {
     font-size: 16px; }
 
 h1, h2, h3, h4 {
-  font-weight: 100;
+  font-weight: 600;
   color: #f4821f;
-  font-family: 'Ubuntu', sans-serif; }
+  TEXT-TRANSFORM: uppercase; }
+
+h2 {
+  font-size: 26px; }
+
+h3 {
+  font-size: 22px; }
 
 section {
   border-bottom: 1px solid #f4821f; }
@@ -37,7 +42,7 @@ footer {
   margin-right: auto; }
 
 .help-block {
-  color: #ccc; }
+  color: #eeeeee; }
 
 .jumbotron {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4821f+0,f7921e+100 */
@@ -86,6 +91,23 @@ header h2 {
 textarea.form-control {
   padding: 10px 12px;
   min-height: 156px; }
+
+#contact {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4821f+0,f7921e+100 */
+  background: #f4821f;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(244, 130, 31, 0) 0%, #f7921e 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f4821f 0%, #f7921e 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f4821f 0%, #f7921e 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4821f', endColorstr='#f7921e',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  color: #333; }
+  #contact h1, #contact h2, #contact h3 {
+    color: #fff; }
 
 .services .IconCircle {
   margin: 0 auto; }
