@@ -1,0 +1,59 @@
+body {
+	padding-top:50px;
+	
+	font-family: 'Ubuntu', sans-serif;
+	p {
+		font-size:16px;
+	}
+}
+h1, h2, h3, h4 {
+	font-weight:100;
+	color:$primary;
+
+	font-family: 'Ubuntu', sans-serif;
+}
+section  {
+	border-bottom:1px solid #f4821f;
+	.container {
+		
+		padding-bottom:20px;
+	}
+}
+section:nth-child(odd) {
+	background:rgba(224, 232, 230 ,0.2);
+	
+		padding-top:20px;
+}
+
+
+footer {
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4821f+0,f7921e+100 */
+background: #F9FBFA; /* Old browsers */
+
+	color:#333;
+	padding-top:10px;
+	padding-bottom:10px;
+
+
+	line-height:1em;
+}
+.portrait {
+	float:right;
+
+}
+#about img {
+	with:100%;
+	max-width:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.help-block {
+	color:#ccc;
+	
+}
+.jumbotron {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4821f+0,f7921e+100 */
+
+padding:15px 0;
+}
